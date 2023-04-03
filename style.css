@@ -1,0 +1,125 @@
+*{
+    background-image: url("imagenes1/images\ \(2\).jpg");
+    background-attachment: fixed;
+    background-size:cover ;
+    font-family: 'Inter';
+    font-style: normal; 
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+h1 {
+    color: #c2dfdf;
+    text-align: center;
+    top:center;
+   
+}
+
+
+.logo {
+    
+    padding-top: 10px;
+    margin-top: -97px;
+    border-radius:100%;
+    width: 5%;
+    position: absolute;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+nav{
+    position:static ;
+}
+
+.text-area {
+    background:#cfe4f9;
+    color:#4a6485;
+    margin-top: 10px;
+    text-transform: lowercase;
+    border-radius: 24px; 
+    height: 430px;
+    text-decoration: underline;
+    text-shadow: 4px 1px 5px #144572; 
+    box-shadow: -4px 17px 39px 30px #213c50;
+    }
+
+::placeholder { color: #0A3871; text-align: center; }
+  .text-area:focus{
+    outline: none;
+  }
+
+.mensaje{
+    background: #ffffff;
+    background-image: url("imagenes1/1.png");
+    background-image: static;
+    background-repeat:no-repeat;
+    border: 12em 12em 1em 1em ;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 2em;
+    margin-top: 10px;
+    padding-left: 5px;
+    height: 430px;
+    width: 194px;
+    box-shadow: 12px 18px 17px 12px #000;
+}
+
+ .mensaje:focus {
+    outline: none;
+  }
+
+.letras {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+
+}
+
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 228px;
+    
+}
+
+.btn-encriptar {
+    background: #23528f;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    width: 228px;
+}
+
+.btn-copiar {
+    background: #23528f;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #bdc0c4;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 66px;
+    margin-top: 2px;
+    position: static;
+    width: 228px;
+}
